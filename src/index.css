@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.questions-container {
+  display: grid;
+  gap: 1rem;
+  width: min(90%, 900px);
+  margin: 0 auto;
+}
+
+.question {
+  padding: 1rem;
+  background: rgb(234, 242, 292);
+  width: 100%;
+}
+
+.question__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question p {
+  padding: 1rem 0;
+}
